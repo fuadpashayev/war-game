@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    margin-bottom: -4px !important;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #0009;
+    width: calc(50vw - 150px - 5%);
+    min-width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.player-name {
+    border: 0;
+    outline: none;
+    height: 40px;
+    margin: 10px 25px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.start {
+    height: 40px;
+    margin: 0 25px !important;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 330ms;
+    background-color: #8e613f;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.start:hover {
+    background-color: #6c4a31;
+}
